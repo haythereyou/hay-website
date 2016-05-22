@@ -1,0 +1,162 @@
+.nav h1 {
+  padding-left: 12px;
+  color: #028900;
+  font-size: 48px;  
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.nav a {
+  color: #028900;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-transform: uppercase;
+}
+.nav ul {
+  padding-top: 24px;
+  color: #028900;
+  font-size: 16px;
+  font-weight: bold;
+} 
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url(images/bkg.jpg);
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-size: 48px;  
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.title-block h1{
+  color: #4d5d53;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+.gallery-block {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px;
+}
+
+.gallery-block h2 {
+  color: #393c3d;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+}
+  
+.gallery-block p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.dimmer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0,0,0,.8);
+}
+
+.overlay {
+  position: fixed;
+  left: 50%;
+  top: 50%; 
+  width: 720px;
+  height: 520px;
+  margin: -260px 0px 0px -360px;
+  z-index: 8;
+  background: #000000;
+}
+
+.contact-block {
+  border: 2px solid #4d5d53;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #0;
+  padding: 12px 12px 12px 12px;
+  font-family: 'Lora', serif;
+}
+
+.pano {
+  border: 2px solid #4d5d53;
+  border-radius: 10px;
+  margin: auto;  
+  width: 85%;
+}
+
+.page-text {
+  color: 0;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
+.thumbnail {
+  border: 2px solid #4d5d53;
+  border-radius: 10px;
+}
+
+.thumbnail p {
+  font-size: 14px;
+  color: #028900;
+  text-align: center;
+  padding-top: 2px;
+  font-weight: bold;
+} 
+
+.small-pic {
+  border: 2px solid #4d5d53;
+  border-radius: 10px;
+  width: 340px;
+  height: 280px;
+}
+
+.small-pic img {
+  display:block;
+  margin:auto;
+}
+
+.small-pic h5 {
+  font-size: 14px;
+  color: #028900;
+}
+
+.text-block {
+  padding: 12px 12px 12px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbs {
+  display: inline-block;
+  width: 196;
+  height: 110;
+  padding: 10px;
+}
+
