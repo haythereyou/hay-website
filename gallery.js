@@ -80,6 +80,11 @@ $(document).ready(function() {
       $('#image-box').append(imgTags[index]);
     };
   });
+
+  $(document).on('click','.dimmer', function(){
+    $('.overlay').remove();
+    $('.dimmer').remove();    
+  });
   
   $(document).keydown(function(key) {
     switch(parseInt(key.which,10)) {
@@ -96,6 +101,10 @@ $(document).ready(function() {
           $('.image').remove();
           $('#image-box').append(imgTags[index]);
         };
+        break;
+      case 27:
+         $('.overlay').remove();
+         $('.dimmer').remove();
        break;
        default: break;
     };
