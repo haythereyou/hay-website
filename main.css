@@ -115,11 +115,13 @@
   color: 0;
   font-size: 20px;
   font-family: 'Lora', serif;
+  padding: 10px;
 }
 
 .thumbnail {
   border: 2px solid #4d5d53;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .thumbnail p {
@@ -129,12 +131,6 @@
   padding-top: 2px;
   font-weight: bold;
 } 
-
-@media(max-width:767px){
-  .thumbnail {
-    width:40px;
-  }
-}
 
 .small-pic {
   border: 2px solid #4d5d53;
