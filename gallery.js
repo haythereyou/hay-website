@@ -4,6 +4,10 @@ imgTags[nImg++] = '<img src="images/IMG_1703.jpg" width=640 height=480 class="im
 imgTags[nImg++] = '<img src="images/IMG_1702.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1701.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1700.jpg" width=640 height=480 class="image">';
+
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/WRieo65RsRs" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/MrR-Bc4cjeY" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+
 imgTags[nImg++] = '<img src="images/IMG_1691.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1690.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1681.jpg" width=640 height=480 class="image">';
