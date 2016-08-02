@@ -1,5 +1,12 @@
 var imgTags = [];
 var nImg = 0;
+
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/sdcp6vs5-9Y" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/NwuoqL-70e0" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/BYvYRwA1WXo" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+imgTags[nImg++] = '<iframe src="https://www.youtube.com/embed/M49-h3tTT3M" width="640" height="480" frameborder="0" allowfullscreen class="image"></iframe>';
+
 imgTags[nImg++] = '<img src="images/IMG_1703.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1702.jpg" width=640 height=480 class="image">';
 imgTags[nImg++] = '<img src="images/IMG_1701.jpg" width=640 height=480 class="image">';
